@@ -1,0 +1,28 @@
+import turtle
+
+choudhary_turtle = turtle.Turtle()
+
+def square():
+
+
+    # set turtle speed to low(1)
+    turtle.speed(1)
+
+    # turtle sqare
+    choudhary_turtle.forward(100)
+    choudhary_turtle.right(90)
+    choudhary_turtle.forward(100)
+    choudhary_turtle.right(90)
+    choudhary_turtle.forward(100)
+    choudhary_turtle.right(90)
+    choudhary_turtle.forward(100)
+    
+# the count for the square
+for court in range(4):
+
+#call the function
+    square()
+
+# does not let the turtle window close soon
+turtle.done()
+
