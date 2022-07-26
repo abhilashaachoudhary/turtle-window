@@ -1,0 +1,23 @@
+import turtle
+
+choudhary_turtle = turtle.Turtle()
+
+def triangle():
+
+
+    # set turtle speed to low(1)
+    turtle.speed(1)
+
+    # turtle sqare
+    choudhary_turtle.forward(100)
+    choudhary_turtle.right(60)
+    choudhary_turtle.forward(100)
+    choudhary_turtle.right(150)
+    choudhary_turtle.forward(190)
+
+# call function
+triangle()
+
+# does not let the turtle window close soon
+turtle.done()
+
